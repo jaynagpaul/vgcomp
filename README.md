@@ -2,6 +2,8 @@
 Vainglory Team Composition Generator
 Uses Python Type Hints for readability
 
+## INCOMPLETE.
+
 ## Setup
 Assumes a working Python 3.5 Setup
 
@@ -12,7 +14,7 @@ Assumes a working Python 3.5 Setup
 4. `python run.py`
 
 ## How It Works
-1. Start a spider to save matches from players in/above tier X playing ranked matches. THIS HAS ALREADY BEEN DONE FOR YOUR CONVENIENCE.
+1. Start a spider to save matches from players in/above tier X playing ranked matches. **THIS HAS ALREADY BEEN DONE FOR YOUR CONVENIENCE.**
     Collect only for this patch.
     Stop after a reasonable amount of matches.
 
