@@ -57,7 +57,7 @@ def start(apikey: str, begin: datetime):
 
     winrate = totalWinRate(comps)
 
-    with open(os.getcwd() + os.sep + 'comp.p', 'wb') as f:
+    with open(os.path.dirname(os.path.realpath(__file__)) + os.sep + 'comp.p', 'wb') as f:
         pickle.dump(
             {
                 "comps": comps,

@@ -21,7 +21,7 @@ def cli():
         sys.exit()
 
     if len(sys.argv) == 2:
-        with open(".{0}vgcomp{0}comp.p".format(os.sep), 'rb') as f:
+        with open("{}{}comp.p".format(os.path.dirname(os.path.realpath(__file__)), os.sep), 'rb') as f:
             data = pickle.load(f)
         num = 0
         while True:
