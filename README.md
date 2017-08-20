@@ -8,15 +8,10 @@ Uses Python Type Hints for readability
 ## Setup
 Assumes a working Python 3.4+ Setup
 
-### Development
 1. `git clone https://github.com/jaynagpaul/vgcomp`
 2. `cd vgcomp`
 3. `python3 -m pip install -r requirements.txt`
 4. `python3 vgcomp.py`
-
-### Recommended
-1. `pip install git+https://github.com/jaynagpaul/vgcomp`
-2. `vgcomp` - May need to reload terminal.
 
 ## How It Works
 1. Start a spider to save matches from players in/above tier X playing ranked matches. **THIS HAS ALREADY BEEN DONE FOR YOUR CONVENIENCE.**
