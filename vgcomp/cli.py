@@ -38,7 +38,7 @@ def cli():
                     sys.exit()
                 elif ans.lower() == 'y':
                     num += 1
-                print(ans.lower(), num)
+
             except (IndexError, KeyboardInterrupt) as e:
                 # Check for ctrl+c
                 if e is KeyboardInterrupt:
@@ -77,4 +77,4 @@ def formatData(data: dict, num: int) -> str:
     heroes = [h.capitalize() for h in possibleComps[num].heroes]
     heroesStr = ", ".join(heroes)
 
-    return "VGComp recommends %s.\nIt has a score of %s" % (crayons.cyan(heroesStr), crayons.yellow(round(possibleComps[num].elo(totalwinrate, WEIGHT), 6)))
+    return "\nVGComp recommends %s.\nIt has a score of %s" % (crayons.cyan(heroesStr), crayons.yellow(round(possibleComps[num].elo(totalwinrate, WEIGHT), 6)))
