@@ -6,7 +6,7 @@ Uses Python Type Hints for readability
 ## INCOMPLETE.
 
 ## Setup
-Assumes a working Python 3.5 Setup
+Assumes a working Python 3.4+ Setup
 
 ### Development
 1. `git clone https://github.com/jaynagpaul/vgcomp`
