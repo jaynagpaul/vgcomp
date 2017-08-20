@@ -25,4 +25,4 @@ Assumes a working Python 3.4+ Setup
 3. Sort by "ELO
 
 ## Screenshots
-**TODO**
+![python vgcomp.py taka](https://raw.githubusercontent.com/jaynagpaul/vgcomp/master/images/taka.png)
