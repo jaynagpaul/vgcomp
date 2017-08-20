@@ -6,7 +6,7 @@ import pickle
 import os
 from .utils import convHero
 
-WEIGHT = 5
+WEIGHT = 12
 
 
 def cli():
