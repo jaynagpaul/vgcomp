@@ -77,4 +77,4 @@ def formatData(data: dict, num: int) -> str:
     heroes = [h.capitalize() for h in possibleComps[num].heroes]
     heroesStr = ", ".join(heroes)
 
-    return "VGComp recommends %s.\nIt has a score of %f" % (crayons.cyan(heroesStr), possibleComps[num].elo(totalwinrate, WEIGHT))
+    return "VGComp recommends %s.\nIt has a score of %s" % (crayons.cyan(heroesStr), crayons.yellow(round(possibleComps[num].elo(totalwinrate, WEIGHT), 6)))
