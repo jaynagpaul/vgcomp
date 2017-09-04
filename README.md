@@ -3,8 +3,6 @@ Vainglory Team Composition Generator
 
 Uses Python Type Hints for readability
 
-## INCOMPLETE.
-
 ## Setup
 Assumes a working Python 3.4+ Setup
 
